@@ -7,8 +7,8 @@ print ("Ingrese el primer numero")
 a=int(input())
 print ("Ingrese el segundo numero")
 b=int(input())
-if a>b
+if a>b :
     print("El numero mayor es:", a)
 else:
     print ("El numero mayo es:", b)
-    
+
