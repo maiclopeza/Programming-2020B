@@ -18,7 +18,7 @@ print ("3.Multiplicar")
 print ("4.Dividir")
 print ("Favor ingrese su opcion: ")
 opcion=int(input())
-if opcion < 1 and opcion > 4:
+if opcion >= 1 and opcion <= 4:
     if opcion==1:
         suma=a+b
         print("El resultado de la suma es: ",suma)
@@ -35,7 +35,9 @@ if opcion < 1 and opcion > 4:
                     dividir=a/b
                     print("El resultado de la division es: ", dividir)
                 else:
-                    print("Digite una opcion valida")'''
+                    print("Digite una opcion valida")
+else:
+    print("Digite una opcion valida")
 
 
 
